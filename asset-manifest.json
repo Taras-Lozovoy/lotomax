@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/lotomax/static/css/main.b5ad59a8.css",
+    "main.js": "/lotomax/static/js/main.49a9635b.js",
+    "static/js/787.afd94f44.chunk.js": "/lotomax/static/js/787.afd94f44.chunk.js",
+    "static/media/diamond_light.png": "/lotomax/static/media/diamond_light.d822cf0613fa57c72869.png",
+    "static/media/about_us_bg.webp": "/lotomax/static/media/about_us_bg.ca7a7970d5de1761c181.webp",
+    "static/media/how_it_works_bg.webp": "/lotomax/static/media/how_it_works_bg.2f96d4ce261e09ff27c1.webp",
+    "static/media/contact_us_bg.webp": "/lotomax/static/media/contact_us_bg.218c8b8eb4ce455a363f.webp",
+    "static/media/homebg.webp": "/lotomax/static/media/homebg.9e9879f649eb1e13c5a5.webp",
+    "static/media/diamond.png": "/lotomax/static/media/diamond.e4f216be44b4a8e3553d.png",
+    "static/media/mint_bg.webp": "/lotomax/static/media/mint_bg.6525f547a09bb26fd2d1.webp",
+    "static/media/diamonds.png": "/lotomax/static/media/diamonds.565ec517886649f40fc2.png",
+    "static/media/Valky.otf": "/lotomax/static/media/Valky.384c93326dc229045ae6.otf",
+    "static/media/small_diamonds.png": "/lotomax/static/media/small_diamonds.3c7cfd370fec1595352d.png",
+    "static/media/MetroSans-BoldItalic.otf": "/lotomax/static/media/MetroSans-BoldItalic.c80cc58a17a062af90f1.otf",
+    "static/media/MetroSans-SemiBold.otf": "/lotomax/static/media/MetroSans-SemiBold.b89f63ed38281dbcb94e.otf",
+    "static/media/MetroSans-Medium.otf": "/lotomax/static/media/MetroSans-Medium.70fbb80e931bcbdee58b.otf",
+    "static/media/MetroSans-LightItalic.otf": "/lotomax/static/media/MetroSans-LightItalic.b04df02da3e8701bb354.otf",
+    "static/media/MetroSans-Regular.otf": "/lotomax/static/media/MetroSans-Regular.4ff2aeed855c55914dca.otf",
+    "static/media/MetroSans-Bold.otf": "/lotomax/static/media/MetroSans-Bold.c4f5f9e56b7d811a5a19.otf",
+    "static/media/plumb.png": "/lotomax/static/media/plumb.054ffd74ae9837777c76.png",
+    "index.html": "/lotomax/index.html",
+    "static/media/star_with_line.svg": "/lotomax/static/media/star_with_line.48e15872670890624d987b7a886097ac.svg",
+    "static/media/line.svg": "/lotomax/static/media/line.9da6a10e661ecfdae52cc7c3742b2cfe.svg",
+    "static/media/plus.svg": "/lotomax/static/media/plus.4889c338c617810cefc022e7d00f8f0d.svg",
+    "static/media/minus.svg": "/lotomax/static/media/minus.102e8b3ca9dbbe560878f4df440705bd.svg",
+    "main.b5ad59a8.css.map": "/lotomax/static/css/main.b5ad59a8.css.map",
+    "main.49a9635b.js.map": "/lotomax/static/js/main.49a9635b.js.map",
+    "787.afd94f44.chunk.js.map": "/lotomax/static/js/787.afd94f44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5ad59a8.css",
+    "static/js/main.49a9635b.js"
+  ]
+}
