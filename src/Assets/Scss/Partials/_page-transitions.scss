@@ -1,3 +1,4 @@
+
 .wrapper {
   -webkit-transition: all 1s ease-in-out;
   height: 100vh;
@@ -7,7 +8,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-repeat: no-repeat;
-
+  
   &.home {
     background-image: url('../../Images/homebg.jpg');
     background-size: cover;
