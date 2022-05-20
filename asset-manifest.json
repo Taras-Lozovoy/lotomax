@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/lotomax/static/css/main.94889f17.chunk.css",
+    "main.js": "/lotomax/static/js/main.c9dcfa17.chunk.js",
+    "main.js.map": "/lotomax/static/js/main.c9dcfa17.chunk.js.map",
+    "runtime-main.js": "/lotomax/static/js/runtime-main.742e11a1.js",
+    "runtime-main.js.map": "/lotomax/static/js/runtime-main.742e11a1.js.map",
+    "static/css/2.aac6cc8d.chunk.css": "/lotomax/static/css/2.aac6cc8d.chunk.css",
+    "static/js/2.aa596b9f.chunk.js": "/lotomax/static/js/2.aa596b9f.chunk.js",
+    "static/js/2.aa596b9f.chunk.js.map": "/lotomax/static/js/2.aa596b9f.chunk.js.map",
+    "static/js/3.18bbf277.chunk.js": "/lotomax/static/js/3.18bbf277.chunk.js",
+    "static/js/3.18bbf277.chunk.js.map": "/lotomax/static/js/3.18bbf277.chunk.js.map",
+    "index.html": "/lotomax/index.html",
+    "static/css/2.aac6cc8d.chunk.css.map": "/lotomax/static/css/2.aac6cc8d.chunk.css.map",
+    "static/css/main.94889f17.chunk.css.map": "/lotomax/static/css/main.94889f17.chunk.css.map",
+    "static/js/2.aa596b9f.chunk.js.LICENSE.txt": "/lotomax/static/js/2.aa596b9f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/lotomax/static/media/Valky.384c9332.otf",
+    "static/media/styles.scss": "/lotomax/static/media/mint_bg.3331ebee.jpg",
+    "static/media/index.css": "/lotomax/static/media/mint_bg.6525f547.webp",
+    "static/media/diamond.479535f5.gif": "/lotomax/static/media/diamond.479535f5.gif",
+    "static/media/Mint.module.css": "/lotomax/static/media/diamond.e4f216be.png",
+    "static/media/diamond_light.d822cf06.png": "/lotomax/static/media/diamond_light.d822cf06.png",
+    "static/media/diamonds.565ec517.png": "/lotomax/static/media/diamonds.565ec517.png",
+    "static/media/line.9da6a10e.svg": "/lotomax/static/media/line.9da6a10e.svg",
+    "static/media/minus.102e8b3c.svg": "/lotomax/static/media/minus.102e8b3c.svg",
+    "static/media/plumb.054ffd74.png": "/lotomax/static/media/plumb.054ffd74.png",
+    "static/media/plus.4889c338.svg": "/lotomax/static/media/plus.4889c338.svg",
+    "static/media/slick-theme.css": "/lotomax/static/media/slick.c94f7671.ttf",
+    "static/media/small_diamonds.3c7cfd37.png": "/lotomax/static/media/small_diamonds.3c7cfd37.png",
+    "static/media/star_with_line.48e15872.svg": "/lotomax/static/media/star_with_line.48e15872.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.742e11a1.js",
+    "static/css/2.aac6cc8d.chunk.css",
+    "static/js/2.aa596b9f.chunk.js",
+    "static/css/main.94889f17.chunk.css",
+    "static/js/main.c9dcfa17.chunk.js"
+  ]
+}
