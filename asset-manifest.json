@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lotomax/static/css/main.94889f17.chunk.css",
-    "main.js": "/lotomax/static/js/main.8bb99b0e.chunk.js",
-    "main.js.map": "/lotomax/static/js/main.8bb99b0e.chunk.js.map",
+    "main.css": "/lotomax/static/css/main.6023f116.chunk.css",
+    "main.js": "/lotomax/static/js/main.fe6df097.chunk.js",
+    "main.js.map": "/lotomax/static/js/main.fe6df097.chunk.js.map",
     "runtime-main.js": "/lotomax/static/js/runtime-main.742e11a1.js",
     "runtime-main.js.map": "/lotomax/static/js/runtime-main.742e11a1.js.map",
     "static/css/2.aac6cc8d.chunk.css": "/lotomax/static/css/2.aac6cc8d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.18bbf277.chunk.js.map": "/lotomax/static/js/3.18bbf277.chunk.js.map",
     "index.html": "/lotomax/index.html",
     "static/css/2.aac6cc8d.chunk.css.map": "/lotomax/static/css/2.aac6cc8d.chunk.css.map",
-    "static/css/main.94889f17.chunk.css.map": "/lotomax/static/css/main.94889f17.chunk.css.map",
+    "static/css/main.6023f116.chunk.css.map": "/lotomax/static/css/main.6023f116.chunk.css.map",
     "static/js/2.aa596b9f.chunk.js.LICENSE.txt": "/lotomax/static/js/2.aa596b9f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/lotomax/static/media/Valky.384c9332.otf",
     "static/media/styles.scss": "/lotomax/static/media/mint_bg.3331ebee.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.742e11a1.js",
     "static/css/2.aac6cc8d.chunk.css",
     "static/js/2.aa596b9f.chunk.js",
-    "static/css/main.94889f17.chunk.css",
-    "static/js/main.8bb99b0e.chunk.js"
+    "static/css/main.6023f116.chunk.css",
+    "static/js/main.fe6df097.chunk.js"
   ]
 }
