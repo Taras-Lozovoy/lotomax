@@ -111,11 +111,12 @@ const TransitionRoutes = () => {
   });
 
   useLayoutEffect(() => {
-    const newCurrPage = pages.find((page) => page.path === location.pathname);
-    const rightOrLeft =
-      newCurrPage.order >= currentPage.order ? "right" : "left";
-    setNextPage(newCurrPage);
-    setDirection(rightOrLeft);
+    if (currentPage.order) {
+      const newCurrPage = pages.find((page) => page.path === location.pathname);
+      const rightOrLeft = newCurrPage.order >= currentPage.order ? "right" : "left";
+      setNextPage(newCurrPage);
+      setDirection(rightOrLeft);
+    }
   }, [location.pathname, pages]);
 
   useEffect(() => {
