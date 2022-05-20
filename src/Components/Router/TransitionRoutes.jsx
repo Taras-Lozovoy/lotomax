@@ -57,19 +57,15 @@ const TransitionRoutes = () => {
   };
 
   const handleArrowLeft = () => {
-    console.log(pages[currentPage.order - 1].path)
     if (pages[currentPage.order - 1].path) {
       navigate(`${pages[currentPage.order - 1].path}`);
       setTs(0);
-      console.log("left")
     }
   };
   const handleArrowRight = () => {
-    console.log(pages[currentPage.order + 1].path)
     if (pages[currentPage.order + 1].path) {
       navigate(`${pages[currentPage.order + 1].path}`);
       setTs(0);
-      console.log("right")
     }
   };
 
