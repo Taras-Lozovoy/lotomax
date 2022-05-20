@@ -44,14 +44,6 @@ const TransitionRoutes = () => {
 
   const [tsY, setTsY] = useState(0);
 
-  const [direction, setDirection] = useState("right");
-
-  const [nextPage, setNextPage] = useState(
-    pages.find((page) => page.path === location.pathname)
-      ? pages.find((page) => page.path === location.pathname)
-      : pages[0]
-  );
-
   const [currentPage, setCurrentPage] = useState(
     pages.find((page) => page.path === location.pathname)
       ? pages.find((page) => page.path === location.pathname)
@@ -65,36 +57,48 @@ const TransitionRoutes = () => {
   };
 
   const handleArrowLeft = () => {
-    navigate(`${pages[currentPage.order - 1].path}`);
-    setTs(0);
+    console.log(pages[currentPage.order - 1].path)
+    if (pages[currentPage.order - 1].path) {
+      navigate(`${pages[currentPage.order - 1].path}`);
+      setTs(0);
+      console.log("left")
+    }
   };
   const handleArrowRight = () => {
-    navigate(`${pages[currentPage.order + 1].path}`);
-    setTs(0);
+    console.log(pages[currentPage.order + 1].path)
+    if (pages[currentPage.order + 1].path) {
+      navigate(`${pages[currentPage.order + 1].path}`);
+      setTs(0);
+      console.log("right")
+    }
   };
+
   useKey("ArrowLeft", handleArrowLeft);
   useKey("ArrowRight", handleArrowRight);
 
   const handleStart = (e) => {
-    setTs(e.touches[0].clientX);
-    setTsY(e.touches[0].clientY);
-  };
+    setTs(e.touches[0].clientX)
+    setTsY(e.touches[0].clientY)
+  }
 
   const handleEnd = (e) => {
-    let te = e.changedTouches[0].clientX;
-    let teY = e.changedTouches[0].clientY;
+    let te = e.changedTouches[0].clientX
+    if(ts > te + 5){
+      let teY = e.changedTouches[0].clientY
 
-    if (ts > te + 100 && tsY >= teY - 450) {
-      if (currentPage.order + 1 <= pages.length - 1) {
-        navigate(`${pages[currentPage.order + 1].path}`);
+      if(ts > te + 5 && tsY >= teY - 450){
+        if(currentPage.order + 1 <= pages.length - 1) {
+          navigate(`${pages[currentPage.order + 1].path}`)
+        }
+      }else if(ts < te - 5){
+      }else if(ts < te - 5 && tsY >= teY - 450){
+        if(currentPage.order - 1 >= 0) {
+          navigate(`${pages[currentPage.order - 1].path}`)
+        }
       }
-    } else if (ts < te - 100 && tsY >= teY - 450) {
-      if (currentPage.order - 1 >= 0) {
-        navigate(`${pages[currentPage.order - 1].path}`);
-      }
+      setTs(0)
     }
-    setTs(0);
-  };
+  }
 
   const dispatch = useDispatch();
   let { userAddress, connectionType } = useSelector((state) => state.common);
@@ -105,23 +109,18 @@ const TransitionRoutes = () => {
     el.addEventListener("touchstart", handleStart, false);
     el.addEventListener("touchend", handleEnd, false);
     return () => {
-      el.removeEventListener("touchstart", handleStart);
-      el.removeEventListener("touchend", handleEnd);
-    };
+      el.removeEventListener("touchstart", handleStart)
+      el.removeEventListener("touchend", handleEnd)
+    }
   });
 
-  useLayoutEffect(() => {
-    if (currentPage.order) {
-      const newCurrPage = pages.find((page) => page.path === location.pathname);
-      const rightOrLeft = newCurrPage.order >= currentPage.order ? "right" : "left";
-      setNextPage(newCurrPage);
-      setDirection(rightOrLeft);
-    }
-  }, [location.pathname, pages]);
-
   useEffect(() => {
-    setCurrentPage(nextPage);
-  }, [direction, pages, nextPage]);
+    setCurrentPage(
+        pages.find(page => page.path === location.pathname) ?
+            pages.find(page => page.path === location.pathname) :
+            pages[0]
+    )
+  }, [location.pathname])
 
   useEffect(() => {
     if (userAddress) {
@@ -162,14 +161,12 @@ const TransitionRoutes = () => {
         />
       )}
       <SlideRoutes duration={1000} timing="ease-in-out">
-        {/* <Routes > */}
         <Route exact path="/" element={<Home />} />
         <Route path="/about_us" element={<AboutUs />} />
         <Route path="/how_it_works" element={<HowItWorks />} />
         <Route path="/mint" element={<MintContainer />} />
         <Route path="/contact_us" element={<ContactUs />} />
         <Route path="*" element={<Navigate to="/" />} />
-        {/* </Routes> */}
       </SlideRoutes>
       <Footer />
     </div>
