@@ -111,6 +111,9 @@
 
 
 @media screen and (max-width: 1440px) {
+    .main {
+        margin-top: 100px;
+    }
     .header {
         margin-top: 12px;
     }
@@ -207,6 +210,9 @@
 }
 
 @media screen and (max-width: 850px) {
+    .main {
+        margin-top: 0;
+    }
     .smallCard {
         width: 31% !important;
     }
