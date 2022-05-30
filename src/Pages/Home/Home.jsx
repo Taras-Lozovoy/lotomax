@@ -24,7 +24,7 @@ const Home = () => {
             <MaxWidthContainer className={classes.main}>
                 <div className={classes.side}>
                     <Text variant="p2_italic" className={classes.preHeader}>
-                        Exclusive Diamond Holder Club Presents
+                        Exclusive Diamond Holders Club Presents
                     </Text>
                     <Header variant="h1">
                         LottoMax
@@ -41,6 +41,12 @@ const Home = () => {
                         LottoMax is setting a new standard in the crypto and lottery space alike.
                         Presented by the Exclusive Diamond Holders Club. 
                     </Text>
+                    <br/>
+                    <div>
+                        <Text variant="p1">
+                            up to 1 million BUSD in prizes
+                        </Text>
+                    </div>
                     <div className={classes.diamondMobile}>
                         <img src={diamond_gif} alt="diamond"/>
                     </div>
