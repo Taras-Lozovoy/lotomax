@@ -28,6 +28,11 @@
 .text {
     width: 83%;
 }
+
+.bottom_text {
+    font-weight: 400;
+    color: #FFFFFF;
+}
 .diamond {
     width: 50%;
     display: flex;
