@@ -32,7 +32,7 @@ const Home = () => {
                     <div className={classes.subHeader}>
                         <img src={star_with_line} alt="star"/>
                         <Header variant="h3">
-                            The Premiere NFT Lottery
+                            The Premiere NFT Lotter
                         </Header>
                     </div>
                     <Text variant="p2" className={classes.text}>
@@ -44,7 +44,7 @@ const Home = () => {
                     <br/>
                     <div>
                         <p className={classes.bottom_text}>
-                            up to 1 million BUSD in prizes
+                            Up to 1 million BUSD in prizes
                         </p>
                     </div>
                     <div className={classes.diamondMobile}>
