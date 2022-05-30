@@ -43,9 +43,9 @@ const Home = () => {
                     </Text>
                     <br/>
                     <div>
-                        <p className={classes.bottom_text}>
+                        <Header variant="h3">
                             Up to 1 million BUSD in prizes
-                        </p>
+                        </Header>
                     </div>
                     <div className={classes.diamondMobile}>
                         <img src={diamond_gif} alt="diamond"/>
